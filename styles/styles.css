@@ -673,7 +673,12 @@ border-radius: 4px;
         background-repeat: no-repeat;
         background-origin: padding-box;
     }
-
+    .modal-checkbox-accept:focus+.modal-checkbox-text::before{
+        outline: 1px solid var(--accent-color);
+    }
+    .footer-email{
+        color: var(--white-text);
+    }
     .modal-submit-button{
         display: block;
         margin: 0 auto;
@@ -775,7 +780,9 @@ border-radius: 4px;
 .list .link{
     text-decoration: none;
 }
-
+.link{
+    color: var(--accent-color);
+}
 .portfolio-description-text{
     position: absolute;
     top: 0;
